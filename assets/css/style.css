@@ -237,6 +237,39 @@ a:hover {
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
+span.badge.badge-pill.badge-danger.bg-pink.text-light{
+  background-color: fuchsia;
+}
+span.badge.badge-pill.badge-danger.bg-orange.text-light{
+background-color: #ff6337;
+}
+span.badge.badge-pill.badge-danger.bg-violet.text-light{
+background-color: #5a37c3;
+}
+span.badge.badge-pill.badge-danger.bg-blue.text-light{
+background-color: #4d12ee;
+}
+span.badge.badge-pill.badge-danger.bg-rosa.text-light{
+background-color: #f03861;
+}
+span.badge.badge-pill.badge-danger.bg-green.text-light{
+background-color: #18d26e;
+}
+
+.enlarge{
+  width: 75%;
+  height: 75%;
+  transition-property: width, height;
+  transition-duration: 2s;
+}
+.enlarge:hover{
+  width: 100%;
+  height: 100%;
+}
+.lead{
+  font-size: 1rem;
+  line-height: 1.7;
+}
 
 /*------/ Ul resect /------*/
 .ul-resect,
